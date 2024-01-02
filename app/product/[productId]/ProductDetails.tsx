@@ -37,7 +37,7 @@ const Horizontal =() =>{
     return <hr className="w-[30%] my-2" />
 }
 
-const productDetails: React.FC<ProductDetailsProps> = ({ product }) => {
+const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
 
 const {handleAddProductToCart, cartProducts} = useCart()
 const [isProductInCart, setIsProductInCart] = useState(false);
@@ -167,4 +167,4 @@ useEffect(() => {
   );
 };
 
-export default productDetails;
+export default ProductDetails;
