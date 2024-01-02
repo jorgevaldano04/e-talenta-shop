@@ -1,7 +1,6 @@
 import Container from "@/app/components/nav/Container";
 import ProductDetails from "./ProductDetails";
 import ListRating from "./ListRating";
-import { products } from "@/utils/products";
 import getProductById from "@/actions/getProductById";
 import NullData from "@/app/components/products/NullData";
 import AddRating from "./AddRating";
