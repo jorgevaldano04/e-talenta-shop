@@ -12,7 +12,7 @@ const HomeBanner = () => {
             </div>
             <div className="w-1/3 relative aspect-video">
             <Image
-            src="/banner-image.png"
+            src="/background2.png"
             fill
             alt="Banner Image"
             className="object-contain" />

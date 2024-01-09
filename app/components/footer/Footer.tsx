@@ -52,11 +52,17 @@ const Footer = () => {
               About Us
             </h3>
             <p className="mb-2">
-              at asdmi asdmasd asd asdnkqwnd asdadk qdqwdkqm asdmasd
-              sadakdmkadsm qdmqkdm asdkadkmwq asdmasdkasdk kadskand adsmkad
-              asdomaod
+              Talenta Komputer adalah toko spesialis yang menyediakan
+              berbagai macam solusi alat tinta komputer untuk berbagai
+              kebutuhan, mulai dari penggunaan rumahan hingga kebutuhan bisnis
+              dan industri. Dengan lokasi strategis di pusat kota dan juga
+              ketersediaan toko online, Talenta Komputer menawarkan kemudahan akses dan
+              berbagai pilihan produk berkualitas tinggi. Kami mengutamakan
+              kepuasan pelanggan dengan menyediakan produk yang andal, layanan
+              pelanggan yang ramah dan ahli, serta dukungan teknis yang
+              komprehensif.
             </p>
-            <p>&copy; {new Date().getFullYear()} E-Shop. All rights reserved</p>
+            <p>&copy; {new Date().getFullYear()} Talenta-Komputer. All rights reserved</p>
           </div>
           <FooterList>
             <h3

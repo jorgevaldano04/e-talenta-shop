@@ -50,7 +50,7 @@ const ManageProductsClient: React.FC<ManageProductsClientProps> = ({
     { field: "name", headerName: "Nama", width: 220 },
     {
       field: "price",
-      headerName: "Harga(IDR)",
+      headerName: "Harga (USD)",
       width: 100,
       renderCell: (params) => {
         return (

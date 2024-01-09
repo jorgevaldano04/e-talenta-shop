@@ -33,7 +33,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string,
         const orderData = {
             user: {connect: {id: currentUser.id}},
             amount: total,
-            currency: 'usd',
+            currency: "usd",
             status: "pending",
             deliveryStatus: "pending",
             paymentIntentId: payment_intent_id,
